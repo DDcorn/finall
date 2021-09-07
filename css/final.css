@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma, arial, sans-serif, 'lucida grande';
+}
+.container{
+	width: 1044px;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+	color: #696969;
+}
+p{
+	font-size: 18px;
+}
+a:hover, a:hover p{
+	color: #818753;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+
+/* Menu */
+.menu{
+	margin-top: 0px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.menu ul li{
+	diwdlay: inline-block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+
+
+/* SLIDE */
+.slide{
+	margin-top: 30px;
+	position: relative;
+}
+.slide .left{
+	width: 400px;
+	position: absolute;
+	left: 75px;
+	top: 210px;
+}
+.slice .left h2{
+	font-size: 80px;
+	color: #464444;
+}
+
+.btn{
+	padding: 15px 55px;
+	background-color: #3ad0b2;
+	border-radius: 30px;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	cursor: pointer;
+	border: none;
+	margin-top: 20px;
+}
+
+/* BANNER */
+.banner{
+	margin-top: 20px;
+}
+.bannerLeft{
+	width: 550px;
+	height: 590px;
+	margin-right: 20px;
+	float: left;
+	background-size: cover;
+	position: relative;
+}
+.bannerRight{
+	width: 600px;
+	height: 700px;
+	float: right;
+	background-size: cover;
+	position: relative;
+}
+
+
+
+/* CONwd1T */
+#title{
+	margin-bottom: 20px;
+	font-size: 50px;
+}
+.wd, .wd1, .wd2, .wd3{
+	width: 285px;
+	margin-left: 20px;
+	float: left;
+}
+.wd:first-child, .wd1:first-child, .wd2:first-child, .wd3:first-child{
+	margin-left: 0;
+}
+.wd{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.wd img{
+	-webkit-transform: scale(1.5);
+	   -moz-transform: scale(1.5);
+	    -ms-transform: scale(1.5);
+	     -o-transform: scale(1.5);
+	        transform: scale(1.5);
+}
+
+.wd1 p{
+	color: #464444;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.gia{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: #818753;
+	margin-bottom: 20px;
+}
+.gia wdan{
+	font-size: 25px;
+}
+.mua{
+	text-align: center;
+}
+.layer4{
+	margin-bottom: 20px;
+}
+
+/* Banner 2 */
+#baner1{
+	width: 680px;
+	height: 350px;
+	margin-right: 20px;
+	float: left;
+	position: relative;
+	background-repeat: no-repeat;
+	margin-top: 30px;
+}
+#baner2{
+	width: 500px;
+	height: 470px;
+	float: left;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-top: 30px;
+}
+.textL2{
+	position: absolute;
+	left: 495px;
+	top: 89px;
+	font-size: 60px;
+	color: #464444;
+}
+
+.textR2{
+	position: absolute;
+	left: 350px;
+	top: 155px;
+	font-size: 60px;
+	color: #464444;
+}
+
+
+
+/* FOOTER */
+
+.contact p{
+	font-size: 16px;
+
+	color: #6C6666;
+}
+.contact wdan{
+	font-size: 20px;
+	font-weight: bold;
+}
+.medium{
+	font-size:15px!important
+}
+.footer:after,
+.footer:before,
+.padding{
+	padding-top:64px!important;
+	padding-bottom:64px!important
+}
+.center{
+	text-align:center!important
+}
+.xlarge{
+	font-size:24px!important
+}
+.light-grey,.hover-light-grey:hover,.light-gray,.hover-light-gray:hover{
+    color:#000!important;
+    background-color:#f1f1f1!important
+}
+
